@@ -15,7 +15,7 @@
         <setting id="hidecinema" type="bool" label="32571" default="false" />
         <setting type="lsep" label="32319" />
         <setting id="movie.widget" type="enum" label="32320" lvalues="32302|32321|32322|32323|32324|32580" default="1" />
-        <setting id="tv.widget.alt" type="enum" label="32325" lvalues="32302|32326|32327|32328" default="2" visible="!eq(-11,)" />  
+        <setting id="tv.widget.alt" type="enum" label="32325" lvalues="32302|32326|32327|32328" default="2" visible="!eq(-11,)" />
         <setting id="tv.widget" type="enum" label="32325" lvalues="32302|32326" default="1" visible="eq(-12,)" />
         <setting id="prgr.sortorder" type="enum" label="32584" lvalues="32585|32586" default="1" visible="!eq(-13,)" />
         <setting id="lists.widget" type="enum" label="32329" lvalues="32302|32301" default="1" />
@@ -44,8 +44,10 @@
         <setting id="provider.123netflix" type="bool" label="123NETFLIX" default="true" />
         <setting id="provider.afdah" type="bool" label="AFDAH" default="true" />
         <setting id="provider.allrls" type="bool" label="ALLRLS" default="true" />
+        <setting id="provider.alluc" type="bool" label="ALLUC" default="true" />
         <setting id="provider.animeultima" type="bool" label="ANIMEULTIMA" default="true" />
         <setting id="provider.bestmoviez" type="bool" label="BESTMOVIEZ" default="true" />
+        <setting id="provider.chillax" type="bool" label="CHILLAX" default="true" />
         <setting id="provider.cmovies" type="bool" label="CMOVIES" default="true" />
         <setting id="provider.ddls" type="bool" label="DDLS" default="true" />
         <setting id="provider.ddlvalley" type="bool" label="DDLVALLEY" default="true" />
@@ -53,22 +55,20 @@
         <setting id="provider.divxcrawler" type="bool" label="DIVXCRAWLER" default="true" />
         <setting id="provider.dizigold" type="bool" label="DIZIGOLD" default="true" />
         <setting id="provider.einthusan" type="bool" label="EINTHUSAN" default="true" />
-        <setting id="provider.flixanity" type="bool" label="FLIXANITY" default="true" />
-        <setting id="provider.fmovied6" type="bool" label="FMOVIED6" default="true" />
         <setting id="provider.genvideos" type="bool" label="GENVIDEOS" default="true" />
         <setting id="provider.gogoanime" type="bool" label="GOGOANIME" default="true" />
         <setting id="provider.hevcfilm" type="bool" label="HEVCFILM" default="true" />
         <setting id="provider.imdark" type="bool" label="IMDARK" default="true" />
-        <setting id="provider.kingmovies" type="bool" label="KINGMOVIES" default="true" />
         <setting id="provider.library" type="bool" label="LIBRARY" default="true" />
-        <setting id="provider.miradetodo" type="bool" label="MIRADETODO" default="true" />
+        <setting id="provider.ninemovies" type="bool" label="NINEMOVIES" default="true" />
+        <setting id="provider.mehliz" type="bool" label="MEHLIZ" default="true" />
         <setting id="provider.movie4kis" type="bool" label="MOVIE4KIS" default="true" />
         <setting id="provider.movie4korg" type="bool" label="MOVIE4KORG" default="true" />
         <setting id="provider.movie4uch" type="bool" label="MOVIE4UCH" default="true" />
         <setting id="provider.moviesgold" type="bool" label="MOVIESGOLD" default="true" />
         <setting id="provider.mywatchseries" type="bool" label="MYWATCHSERIES" default="true" />
         <setting id="provider.mzmovies" type="bool" label="MZMOVIES" default="true" />
-        <setting id="provider.onlinedizi" type="bool" label="ONLINEDIZI" default="true" />
+        <setting id="provider.onetwothree" type="bool" label="ONETWOTHREE" default="true" />
         <setting id="provider.openloadmovies" type="bool" label="OPENLOADMOVIES" default="true" />
         <setting id="provider.phazeddl" type="bool" label="PHAZEDLL" default="true" />
         <setting id="provider.plocker" type="bool" label="PLOCKER" default="true" />
@@ -80,10 +80,11 @@
         <setting id="provider.rlsbb" type="bool" label="RLSBB" default="true" />
         <setting id="provider.rlsmovies" type="bool" label="RLSMOVIES" default="true" />
         <setting id="provider.sceper" type="bool" label="SCEPER" default="true" />
-        <setting id="provider.series9" type="bool" label="SERIES9" default="true" />
+        <setting id="provider.seriesonline" type="bool" label="SERIESONLINE" default="true" />
         <setting id="provider.seriescr" type="bool" label="SERIESCR" default="true" />
         <setting id="provider.seriesfree" type="bool" label="SERIESFREE" default="true" />
         <setting id="provider.sezonlukdizi" type="bool" label="SEZONLUKDIZI" default="true" />
+        <setting id="provider.showbox" type="bool" label="SHOWBOX" default="true" />
         <setting id="provider.solarmovie" type="bool" label="SOLARMOVIE" default="true" />
         <setting id="provider.tvbox" type="bool" label="TVBOX" default="true" />
         <setting id="provider.tvrelease" type="bool" label="TVRELEASE" default="true" />
@@ -232,7 +233,7 @@
         <setting type="lsep" label="ALLUC" />
         <setting id="alluc.api" type="text" label="32309" default="" />
         <setting id="alluc.limit" type="labelenum" label="32581" default="100" values="10|20|30|40|50|60|70|80|90|100|150|200" />
-        <setting id="alluc.download" type="bool" label="32009" default="false" />        
+        <setting id="alluc.download" type="bool" label="32009" default="false" />
     </category>
     <category label="32541">
         <setting id="library.movie" type="folder" label="32543" default="special://userdata/addon_data/plugin.video.covenant/Movies" />

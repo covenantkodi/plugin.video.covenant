@@ -24,13 +24,13 @@ control.execute('RunPlugin(plugin://%s)' % control.get_plugin_url({'action': 'se
 try:
     ModuleVersion = control.addon('script.module.covenant').getAddonInfo('version')
     AddonVersion = control.addon('plugin.video.covenant').getAddonInfo('version')
-    RepoVersion = control.addon('repository.colossus').getAddonInfo('version')
+    # RepoVersion = control.addon('repository.colossus').getAddonInfo('version')
 
     log_utils.log('######################### COVENANT ############################', log_utils.LOGNOTICE)
     log_utils.log('####### CURRENT COVENANT VERSIONS REPORT ######################', log_utils.LOGNOTICE)
     log_utils.log('### COVENANT PLUGIN VERSION: %s ###' % str(AddonVersion), log_utils.LOGNOTICE)
     log_utils.log('### COVENANT SCRIPT VERSION: %s ###' % str(ModuleVersion), log_utils.LOGNOTICE)
-    log_utils.log('### COLOSSUS REPOSITORY VERSION: %s ###' % str(RepoVersion), log_utils.LOGNOTICE)
+    # log_utils.log('### COLOSSUS REPOSITORY VERSION: %s ###' % str(RepoVersion), log_utils.LOGNOTICE)
     log_utils.log('###############################################################', log_utils.LOGNOTICE)
 except:
     log_utils.log('######################### COVENANT ############################', log_utils.LOGNOTICE)

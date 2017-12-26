@@ -705,7 +705,7 @@ msgstr "Kirjasto"
 
 msgctxt "#32542"
 msgid ""
-"Exodus folders will be imported to library if they are added to media "
+"Copyright (C) 2017 Covenant folders will be imported to library if they are added to media "
 "sources."
 msgstr "Lisää ylläolevat Exoduksen kansiot medialähteisiin"
 
