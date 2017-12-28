@@ -67,7 +67,6 @@
         <setting id="provider.movie4uch" type="bool" label="MOVIE4UCH" default="true" />
         <setting id="provider.moviesgold" type="bool" label="MOVIESGOLD" default="true" />
         <setting id="provider.mywatchseries" type="bool" label="MYWATCHSERIES" default="true" />
-        <setting id="provider.mzmovies" type="bool" label="MZMOVIES" default="true" />
         <setting id="provider.onetwothree" type="bool" label="ONETWOTHREE" default="true" />
         <setting id="provider.openloadmovies" type="bool" label="OPENLOADMOVIES" default="true" />
         <setting id="provider.phazeddl" type="bool" label="PHAZEDLL" default="true" />
@@ -91,6 +90,7 @@
         <setting id="provider.ultrahd" type="bool" label="ULTRAHD" default="true" />
         <setting id="provider.videoscraper" type="bool" label="VIDEOSCRAPER" default="true" />
         <setting id="provider.vodly" type="bool" label="VODLY" default="true" />
+        <setting id="provider.vumoo" type="bool" label="VUMOO" default="true" />
         <setting id="provider.watch32" type="bool" label="WATCH32" default="true" />
         <setting id="provider.watchfree" type="bool" label="WATCHFREE" default="true" />
         <setting id="provider.watchseries" type="bool" label="WATCHSERIES" default="true" />
