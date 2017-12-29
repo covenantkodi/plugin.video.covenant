@@ -44,7 +44,7 @@
         <setting id="provider.123netflix" type="bool" label="123NETFLIX" default="true" />
         <setting id="provider.afdah" type="bool" label="AFDAH" default="true" />
         <setting id="provider.allrls" type="bool" label="ALLRLS" default="true" />
-        <setting id="provider.alluc" type="bool" label="ALLUC" default="true" />
+        <setting id="provider.allucen" type="bool" label="ALLUC" default="true" />
         <setting id="provider.animeultima" type="bool" label="ANIMEULTIMA" default="true" />
         <setting id="provider.bestmoviez" type="bool" label="BESTMOVIEZ" default="true" />
         <setting id="provider.chillax" type="bool" label="CHILLAX" default="true" />
@@ -67,7 +67,6 @@
         <setting id="provider.movie4uch" type="bool" label="MOVIE4UCH" default="true" />
         <setting id="provider.moviesgold" type="bool" label="MOVIESGOLD" default="true" />
         <setting id="provider.mywatchseries" type="bool" label="MYWATCHSERIES" default="true" />
-        <setting id="provider.onetwothree" type="bool" label="ONETWOTHREE" default="true" />
         <setting id="provider.openloadmovies" type="bool" label="OPENLOADMOVIES" default="true" />
         <setting id="provider.phazeddl" type="bool" label="PHAZEDLL" default="true" />
         <setting id="provider.plocker" type="bool" label="PLOCKER" default="true" />
@@ -95,7 +94,6 @@
         <setting id="provider.watchfree" type="bool" label="WATCHFREE" default="true" />
         <setting id="provider.watchseries" type="bool" label="WATCHSERIES" default="true" />
         <setting id="provider.wrzcraft" type="bool" label="WRZCRAFT" default="true" />
-        <setting id="provider.xwatchseries" type="bool" label="XWATCHSERIES" default="true" />
         <setting id="provider.xmovies" type="bool" label="XMOVIES" default="true" />
         <setting id="provider.ymovies" type="bool" label="YMOVIES" default="true" />
         <setting label="Italian" type="lsep" />
